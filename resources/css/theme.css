@@ -1,0 +1,12 @@
+@theme {
+    --default-font-family: "Hanken Grotesk", "Lucida Grande", "sans-serif";
+    --default-mono-font-family: "Hanken Grotesk", "Lucida Grande", "sans-serif";
+    --font-sans: "Hanken Grotesk", "sans-serif";
+    --font-display: "Hanken Grotesk", "Lucida Grande", "sans-serif";
+    --font-body: "Hanken Grotesk", "sans-serif";
+    --fontAwesomeSolid: "var(--fa-font-solid)";
+
+    --color-black: #060606;
+
+    --text-2xs: 0.625rem;
+}
