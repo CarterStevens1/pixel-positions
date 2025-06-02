@@ -27,9 +27,20 @@
                 <a href="{{ url('/salaries') }}">Salaries</a>
                 <a href="{{ url('/companies') }}">Companies</a>
             </div>
-            <div>
-                <a href="{{ url('/post-jo') }}">Post a Job</a>
-            </div>
+
+            @auth
+                <div>
+                    <a href="/jobs/create">Post a Job</a>
+                </div>
+            @endauth
+
+            @guest
+                <div class="space-x-6 font-bold">
+                    <a href="{{ url('/register') }}">Sign Up</a>
+                    <a href="{{ url('/login') }}">Log In</a>
+                </div>
+            @endguest
+
         </nav>
 
 
